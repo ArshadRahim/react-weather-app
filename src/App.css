@@ -1,9 +1,12 @@
 .App {
   text-align: center;
+  display:flex;
+flex-direction: column;
+min-height: 100vh;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 300px;
   pointer-events: none;
 }
 
@@ -36,3 +39,42 @@
     transform: rotate(360deg);
   }
 }
+main {
+  flex-grow: 1;
+  text-align: center;
+  padding: 25px;
+  }
+  footer {
+  padding: 2px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #EEEEEE;
+  font-size: small;
+  text-align: center;
+  }
+  header {
+  padding: 25px;
+  }
+  …
+  …
+  main {
+  flex-grow: 1;
+  text-align: center;
+  padding: 25px;
+  }
+  footer {
+  padding: 2px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #EEEEEE;
+  font-size: small;
+  text-align: center;
+  }
+  
+  header {
+  padding: 25px;
+  }
